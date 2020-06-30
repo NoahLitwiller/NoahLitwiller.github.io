@@ -1,0 +1,8 @@
+    home
+    projects
+        game design
+        cs
+            general
+            data science/machine learning
+    resume
+    contact
