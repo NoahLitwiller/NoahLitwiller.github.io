@@ -4,11 +4,11 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="/projects">Projects</a>
-        <a class="nav-item nav-link" href="/resume">Resume</a>
-        <a class="nav-item nav-link" href="/contact">Contact</a>
-      </div>
+        <div class="navbar-nav">
+            <a [ngClass]="{'active':isCurrRoute('/home')||isCurrRoute('/'),'nav-item':true,'nav-link':true}" href="/">Home </a>
+            <a [ngClass]="{'active':isCurrRoute('/projects'),'nav-item':true,'nav-link':true}" href="/projects">Projects</a>
+            <a [ngClass]="{'active':isCurrRoute('/resume'),'nav-item':true,'nav-link':true}" href="/resume">Resume</a>
+            <a [ngClass]="{'active':isCurrRoute('/contact'),'nav-item':true,'nav-link':true}" href="/contact">Contact</a>
+        </div>
     </div>
-  </nav>
+</nav>
