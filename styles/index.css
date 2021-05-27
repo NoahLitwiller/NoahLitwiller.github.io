@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+body {
+    margin: 0;
+    margin-top: 20px;
+    /*font-family: Roboto, "Helvetica Neue", sans-serif;*/
+}
+
+#face_img {
+    width: 200px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+#main-container {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#right-container {
+    margin-left: 20px;
+}
+
+.navbar,
+a {
+    color: gray;
+}
+
+.active {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.navbar-brand {
+    color: black;
+    position: relative;
+    top: -2px;
+}
+
+#linkedin_img {
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+}
