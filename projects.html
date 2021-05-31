@@ -15,6 +15,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/projects.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="./scripts/projects.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -37,19 +38,30 @@
     </nav>
     <div class="main-container">
         <div class="card">
-            <div class="container">
-                <h4><b>Computer Science</b></h4>
+            <div class="container" onclick="showDiv('comp_sci');">
+                <h4 id="comp_sci_card">Computer Science</h4>
             </div>
         </div>
-        <div class="card">
+        <div class="card" onclick="showDiv('game_design');">
             <div class="container">
-                <h4><b>Game Design</b></h4>
+                <h4 id="game_design_card">Game Design</h4>
             </div>
         </div>
-        <div class="card">
+        <div class="card" onclick="showDiv('other');">
             <div class="container">
-                <h4><b>Other</b></h4>
+                <h4 id="other_card">Other</h4>
             </div>
+        </div>
+    </div>
+    <div>
+        <div id="comp_sci_div">
+            <p>comp sci</p>
+        </div>
+        <div id="game_design_div">
+            <p>game design</p>
+        </div>
+        <div id="other_div">
+            <p>other</p>
         </div>
     </div>
 </body>
