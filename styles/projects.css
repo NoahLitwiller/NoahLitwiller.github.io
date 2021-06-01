@@ -20,8 +20,20 @@
     text-align: center;
 }
 
+#sub-content {
+    padding-top: 10px;
+}
+
 #comp_sci_div,
 #game_design_div,
 #other_div {
     display: none;
+}
+
+.collapse-button {
+    width: 33%;
+}
+
+.collapse-button:hover {
+    cursor: pointer;
 }
