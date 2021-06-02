@@ -11,6 +11,10 @@
     cursor: pointer;
 }
 
+#left_card {
+    margin-left: 10px;
+}
+
 .container {
     padding: 2px 16px;
     padding-top: 5px;
@@ -36,4 +40,28 @@
 
 .collapse-button:hover {
     cursor: pointer;
+}
+
+.btn-toolbar {
+    margin: 0;
+    padding: 0;
+}
+
+.project-container {
+    padding-bottom: 10px;
+}
+
+.project-container,
+.inner-content {
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.inner-content {
+    transition: .1s;
+}
+
+.game-cover {
+    width: 240px;
+    height: 120px;
 }

@@ -19,7 +19,7 @@ body {
 #main-container {
     display: flex;
     align-items: center;
-    width: 35%;
+    width: 25%;
     margin: 0 auto;
     margin-top: 2em;
 }
@@ -41,8 +41,8 @@ a {
 
 #page_title {
     position: absolute;
-    right: 47%;
-    top: 0.1rem;
+    right: 45%;
+    top: 0.1em;
 }
 
 .navbar-brand {
@@ -67,4 +67,13 @@ a {
 
 .btn-group {
     padding-right: 7px;
+}
+
+button>a {
+    color: black;
+}
+
+.target_blank::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
 }

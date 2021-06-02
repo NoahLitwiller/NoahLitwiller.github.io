@@ -1,0 +1,17 @@
+#mail_link {
+    color: black;
+}
+
+#mail_link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#other_links {
+    margin-left: 40%;
+    line-height: 50px;
+}
+
+#page_title {
+    top: 0.2em;
+}
