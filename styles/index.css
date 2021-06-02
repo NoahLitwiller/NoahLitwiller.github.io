@@ -19,7 +19,7 @@ body {
 #main-container {
     display: flex;
     align-items: center;
-    width: 25%;
+    width: 35%;
     margin: 0 auto;
     margin-top: 2em;
 }
@@ -55,6 +55,12 @@ a {
     width: 32px;
     height: 32px;
     margin-left: 0.5em;
+}
+
+#mail_img {
+    width: 46px;
+    height: 34px;
+    margin-left: 0.1em;
 }
 
 .btn-toolbar {
