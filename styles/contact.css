@@ -16,6 +16,32 @@
     top: 0.2em;
 }
 
-#main-container {
+#mobile_page_title {
+    display: none;
+}
+
+#main_container {
     width: 24%;
+}
+
+@media screen and (max-width: 1000px) {
+    #right_header_section,
+    #page_title {
+        display: none;
+    }
+    #mobile_page_title {
+        display: block;
+        color: #808080;
+        text-align: center;
+    }
+    #main_container {
+        margin: 20%;
+    }
+    #left_container {
+        display: none;
+    }
+    #right_container {
+        display: flexbox;
+        align-content: center;
+    }
 }

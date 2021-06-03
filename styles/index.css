@@ -16,7 +16,7 @@ body {
     border-radius: 15px;
 }
 
-#main-container {
+#main_container {
     display: flex;
     align-items: center;
     width: 35%;
@@ -24,7 +24,7 @@ body {
     margin-top: 2em;
 }
 
-#right-container {
+#right_container {
     margin-left: 20px;
 }
 
@@ -48,7 +48,7 @@ a {
 .navbar-brand {
     color: black;
     position: relative;
-    top: 0.3em;
+    top: 0.1em;
 }
 
 #linkedin_img {
@@ -82,4 +82,25 @@ button>a {
 .target_blank::after {
     content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
     margin: 0 3px 0 5px;
+}
+
+@media screen and (max-width: 1000px) {
+    #right_header_section {
+        display: none !important;
+    }
+    #bottom_page_selectors {
+        display: inline-block;
+        margin-left: 92%;
+    }
+    .btn-toolbar,
+    #main_container {
+        margin-left: 50%;
+    }
+    .btn-group {
+        padding-top: 5px;
+    }
+    body {
+        width: 40%;
+        margin-left: 5%;
+    }
 }
