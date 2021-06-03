@@ -88,6 +88,7 @@
     body {
         position: initial;
         left: initial;
+        zoom: 1;
     }
     * {
         font-size: initial;
