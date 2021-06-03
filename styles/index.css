@@ -104,3 +104,19 @@ button>a {
         margin-left: 5%;
     }
 }
+
+@media screen and (max-width: 700px) {
+    #face_img {
+        width: 100px;
+        height: 140px;
+        border-radius: 5px;
+    }
+    * {
+        font-size: 50%;
+    }
+    body {
+        margin-left: 0;
+        position: absolute;
+        left: -5%;
+    }
+}

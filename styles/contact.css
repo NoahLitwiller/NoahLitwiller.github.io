@@ -45,3 +45,24 @@
         align-content: center;
     }
 }
+
+@media screen and (max-width: 700px) {
+    body {
+        position: initial;
+        left: initial;
+        display: flexbox;
+        margin: 0 auto;
+        width: 85%;
+    }
+    * {
+        font-size: initial;
+        display: flexbox;
+        align-content: center;
+    }
+    #mail_link {
+        font-size: 50%;
+    }
+    #github_img {
+        margin-left: -10%;
+    }
+}
