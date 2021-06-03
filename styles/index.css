@@ -118,5 +118,8 @@ button>a {
         margin-left: 0;
         position: absolute;
         left: -5%;
+        display: flexbox;
+        margin: 0 auto;
+        width: 55%;
     }
 }
